@@ -82,3 +82,14 @@ const config = {
 } satisfies Config;
 
 export default config;
+export interface Props {
+  title: string;
+  description: string;
+  dates: string;
+  image?: string;
+  links?: readonly {
+    icon: React.ReactNode;
+    title: string;
+    href: string;
+  }[];
+}
