@@ -77,6 +77,7 @@ export const DATA = {
   work: [
     {
       company: "Purdue University",
+      href: "https://pfw.edu",
       badges: [],
       location: "Fort Wayne, IN, United States",
       title: "Student Worker, Building Services and Management",
@@ -87,6 +88,7 @@ export const DATA = {
         "" },
     {
       company: "Hungry Howie's",
+      href: "https://www.hungryhowies.com/",
       badges: [],
       location: "Fort Wayne, IN, United States",
       title: "Crew Member",
@@ -97,6 +99,7 @@ export const DATA = {
         "" },
     {
       company: "T-Hub Foundation",
+      href: "https://t-hub.co/",
       badges: [],
       location: "Hyderabad, TS, India",
       title: "Full Stack Developer Intern",
@@ -108,6 +111,7 @@ export const DATA = {
     },
     {
       company: "IcfaiTech Entrepreneurship Club",
+      href: "https://www.ifheindia.org/icfai-tech-school-hyderabad",
       badges: [],
       location: "Hyderabad, TS, India",
       title: "Graphic Designer & Mentor",
@@ -119,6 +123,7 @@ export const DATA = {
     },
     {
       company: "Ahex Technologies",
+      href: "https://ahex.co/",
       badges: [],
       location: "Hyderabad, TS, India",
       title: "ETL Developer Intern",
@@ -130,6 +135,7 @@ export const DATA = {
     },
     {
       company: "Skillbanc INC",
+      href: "https://www.linkedin.com/company/skillbanc/",
       badges: [],
       location: "Herndon, VA, United States",
       title: "Software Developer Intern",
