@@ -15,8 +15,6 @@ interface Props {
   title: string;
   href?: string;
   description: string;
-  dates: string;
-  tags: readonly string[];
   link?: string;
   image?: string;
   video?: string;
@@ -32,8 +30,6 @@ export function PhotographyCard({
   title,
   href,
   description,
-  dates,
-  tags,
   link,
   image,
   video,
@@ -63,7 +59,6 @@ export function PhotographyCard({
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
@@ -73,19 +68,6 @@ export function PhotographyCard({
         </div>
       </CardHeader>
       <CardContent className="mt-auto flex flex-col px-2">
-        {tags && tags.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-1">
-            {tags?.map((tag) => (
-              <Badge
-                className="px-1 py-0 text-[10px]"
-                variant="secondary"
-                key={tag}
-              >
-                {tag}
-              </Badge>
-            ))}
-          </div>
-        )}
       </CardContent>
       <CardFooter className="px-2 pb-2">
         {links && links.length > 0 && (

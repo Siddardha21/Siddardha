@@ -171,36 +171,42 @@ export const DATA = {
       dates: "Sep - Dec 2024",
       description:
         "Developed a responsive web application design to streamline parking spot discovery and reservations for students and faculty. Conducted iterative scenario-based design enhancements, boosting user adoption by 20%.",
-      links: [],
+        image:"/me.png",
     },
     {
       title: "Rule-Based Expert System for Personalized Recommendations",
       dates: "Jan - Apr 2023",
       description:
         "Implemented expert systems and fuzzy logic to analyze customer preferences, delivering precise vehicle recommendations. Designed a personalized recommendation engine, improving customer satisfaction and decision-making.",
-      links: [],
+        image:"/me.png",
     },
     {
       title: "UniDive - A MERN Stack Web Application",
       dates: "Feb - May 2023",
       description:
         "Developed a web application using the MERN stack to help students navigate complexities of abroad/overseas education. Designed an interactive dashboard that optimized coursework and financial resource management.",
-    },
+        image:"/me.png",
+      },
     {
       title: "GIS-Based Soil Erosion Assessment in Nellore District",
       dates: "Jan - May 2021",
       description:
-       "Utilized satellite imagery and GIS tools within ArcGIS to generate erosion risk maps, integrated USLE model factors through spatial analysis, and produced maps and reports detailing soil erosion-prone areas."    },
+       "Utilized satellite imagery and GIS tools within ArcGIS to generate erosion risk maps, integrated USLE model factors through spatial analysis, and produced maps and reports detailing soil erosion-prone areas.",   
+       image:"/me.png",
+      },
     {
       title: "Spring Project - ATTIC - MERN-Based Study Material Repository",
       dates: "Jan - May 2021",
       description:
-       "Contributed to ATTIC, a part of the MERN-based application designed as a structured data-storage model for study materials. Users can upload, access, and explore high-quality learning resources across various core study areas in multiple formats. The goal is to provide an engaging and efficient learning experience."    },
+       "Contributed to ATTIC, a part of the MERN-based application designed as a structured data-storage model for study materials. Users can upload, access, and explore high-quality learning resources across various core study areas in multiple formats. The goal is to provide an engaging and efficient learning experience.",
+       image:"/me.png",
+      },
     {
       title: "Projectile Motion Calculator and Graph plotting",
       dates: "Oct - Nov 2018",
       description:
         "Built a comprehensive tool using C and GNUplot for calculating and visualizing projectile motion scenarios. Enabled users to input initial conditions and generate precise trajectory graphs for simulation purposes.",
+        image:"/me.png",
     },
     
   ],
