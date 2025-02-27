@@ -321,7 +321,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Hummerev.png",
+      image: "/hummerev.png",
       video: "",
     }, 
     {
@@ -335,7 +335,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Durango.png",
+      image: "/durango.png",
       video: "",
     },  
     {
@@ -349,7 +349,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Police.png",
+      image: "/police.png",
       video: "",
     },  
     {
@@ -363,7 +363,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Explorer.png",
+      image: "/explorer.png",
       video: "",
     },  
     {
@@ -377,7 +377,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Harrier.png",
+      image: "/harrier.png",
       video: "",
     },  
   ],
